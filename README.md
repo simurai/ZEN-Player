@@ -2,7 +2,7 @@
 
 ## [Demo](http://simurai.github.io/ZEN-Player)
 
-## Note
+### Note
 
 This player is just meant as a __demo__ and not really made to be used on a real site. ;-)
 It would need lots of fixes, more features and some documentation before it would be ready.
