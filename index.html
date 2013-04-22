@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+ *
+ * ZEN - HTML5-CSS3 Audio Player
+ * Author: @simurai (simurai.com)
+ *
+ * Powered by: jPlayer (jplayer.org)
+ * Inspiration: CirclePlayer by @maboa (https://github.com/maboa/circleplayer)
+ *
+ -->
+
+<head>
+	<title>ZEN Player</title>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1;"> 
+    
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/zen.css">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>   
+    <script type="text/javascript" src="js/jquery.rotate.js"></script>
+    <script type="text/javascript" src="js/jquery.grab.js"></script> 
+    <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="js/zen.js"></script>	
+</head>
+	
+<body>
+
+	<div id="zen">
+		<span class="player"></span>
+		<span class="circle"></span>
+		<span class="progress"></span>
+		<span class="buffer"></span>
+		<span class="drag"></span>
+		<div class="button">
+			<span class="icon play"></span>
+			<span class="icon pause"></span>
+		</div>
+	</div>
+
+
+
+    <!-- Footer --------------------------------------- -->
+    
+    <div id="footer">
+        
+        <h1>ZEN Player</h1>
+        <nav class="links">
+            <a href="http://simurai.com/post/2931027283/zen-html5-audio-player">Info</a>
+            <a href="https://github.com/simurai/ZEN-Player">Source</a>
+        </nav>
+        
+        <div class="social">
+            
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="simurai" data-count="none">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            
+            <g:plusone size="medium" annotation="none"></g:plusone>            
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+            
+        </div>
+        
+        <nav class="stamp">
+            <div class="ink"></div>
+        </nav>
+        
+    </div>
+
+
+	
+<!-- Google --------------------------------------- -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-599923-1']);
+  _gaq.push(['_setDomainName', 'simurai.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script><!--/ Google -->
+
+
+</body>
+</html>

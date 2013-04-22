@@ -1,0 +1,44 @@
+/* ZEN Player by @simurai  */
+
+
+/* Global ------------------------------------------------------ */
+
+html {
+    height: 100%;
+	font:62.5%/1 "Droid Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	background: #f0f0f0 url(../img/bg.png);
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	}
+
+
+/* Player ------------------------------------------------------ */
+
+div#zen {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -50px 0 0 -50px;
+    }
+
+
+
+/* Mobile ------------------------------------------------------ */
+
+
+@media only screen and (max-width: 480px) {
+	
+	body {
+		/* Prevents Mobile Safari from bumping up font sizes in landscape */
+		-webkit-text-size-adjust: 100%; 
+	    }
+	
+}
+
+
+
+
