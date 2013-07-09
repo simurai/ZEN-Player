@@ -13,4 +13,4 @@ You're certainly free to use the player however you like (except selling it some
 
 Thanks for your understanding, simurai
 
-ps. If you know some JS and would like to help out develop this player further, please [get in touch](http://simurai.com/contact).
+ps. If you know some JS and would like to help out develop this player further, that would be awesome.
